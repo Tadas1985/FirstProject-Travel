@@ -1,0 +1,50 @@
+body {
+  background-image: url(wood.jpg);
+}
+.forma {
+  width: 450px;
+  border-color: brown;
+}
+.forma a {
+  color: white;
+}
+label {
+  color: white;
+  float: left;
+  width: 150px;
+  text-align: right;
+}
+legend {
+  color: white;
+  font-size: 20px;
+}
+.validation {
+  text-align: center;
+  padding: 15px;
+}
+.title {
+  color: white;
+  float: left;
+  text-align: right;
+  width: 100px;
+  padding-right: 20px;
+}
+.favoritCountry {
+  text-align: right;
+}
+
+.box {
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+  background-color: rgb(130, 172, 69);
+  color: aliceblue;
+  font-size: 20px;
+  display: none;
+}
+
+/* Large screens */
+
+@media (min-width: 700px) {
+  /*Every style we put in this style will be affective if the scree is bigger than 700px*/
+}
